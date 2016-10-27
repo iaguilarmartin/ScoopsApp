@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+TypeError: Cannot read property 'message' of null
+    at Request.requestCallback [as _callback] (D:\home\site\wwwroot\api\facebookAPI.js:15:93)
+    at Request.self.callback (D:\home\site\wwwroot\node_modules\request\request.js:200:22)
+    at emitTwo (events.js:87:13)
+    at Request.emit (events.js:172:7)
+    at Request.<anonymous> (D:\home\site\wwwroot\node_modules\request\request.js:1067:10)
+    at emitOne (events.js:82:20)
+    at Request.emit (events.js:169:7)
+    at IncomingMessage.<anonymous> (D:\home\site\wwwroot\node_modules\request\request.js:988:12)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)

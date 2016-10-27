@@ -1,0 +1,452 @@
+2016-10-26T18:28:20  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-26T18:28:20  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-26T18:28:20  PID[6712] Warning     The configured default provider 'AzureActiveDirectory' was ignored because it is not enabled. An alternate provider will be chosen arbitrarily.
+2016-10-26T18:28:54  PID[6712] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/api/scoopsAPI?post_id=447a05b0-c59b-4217-aac7-16363453c7e5
+2016-10-26T18:28:54  PID[6712] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/api/scoopsAPI?post_id=447a05b0-c59b-4217-aac7-16363453c7e5
+2016-10-26T18:28:54  PID[6712] Warning     The configured default provider 'AzureActiveDirectory' was ignored because it is not enabled. An alternate provider will be chosen arbitrarily.
+2016-10-26T18:32:42  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:32:42  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D27375444230d404eacb6029624c6a65c_20161026183742%26redir%3D
+2016-10-26T18:32:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQC4Dfw-qxfv3oaFV7fyWIS3G1TkSkFsUxqihnxMw8ZqyZMGvEi9c7VJNDM1k9LL8jHYqz91KvJwJb1R6W1mp2cmBHZcgKKGsRtq_noitlX9KHj3mf-o_JnilLvsOXvKMaD_BFWVvNWTv4mJEv0P2Xmf7peafdzk7ixOgmOQ7N1p7dQdtXNv3Rmfls-4rrLIqcOuK1bNHhbH2SwOVJhGMJJwD0m67l4xG7SMLq8Uz7hTQNCwQhZeBfrxAAw4vF3a0oMivzEngJqql__cUGiza12gpHe9RkEiSko1FgnyAIo-Qfx6mc95r7PgM8dtOPHfgwc&state=nonce%3D27375444230d404eacb6029624c6a65c_20161026183742%26redir%3D
+2016-10-26T18:32:43  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:32:43  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:32:43  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:32:44  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:32:44  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDY3NjR9.4_wxywBBapK9PrO87ltgqxmB6YkThBTdGR4fd-1CBBw%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:32:44  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:32:44  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:32:45  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/scoopsAPI
+2016-10-26T18:32:45  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/scoopsAPI
+2016-10-26T18:32:45  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:32:45  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:36:16  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:36:16  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3De486424831f34e24b1328212b3bf0547_20161026184116%26redir%3D
+2016-10-26T18:36:16  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQA296cXhlhMPjFgZdCaaRuuCCLuLOyIw9WEsVhLe2l2STZaWS03FgIkO9pen-wJsAGY9Yqh2JGeeDjKdfybjFZTWU2OCTc6TOVn0YTMRl-LXZxVFR1L7rJsVrtZoXdUCjrDDE8FsEcZCzkJMuQvZom36kNj6j5u0gwlSHKGp3iOfvU_zLhROLJEVU4-nbUUE49WiK00X8XNyJzsCJoWUtUAb-RRpndbxIgnPmFe_IVturD5jqgKAb5rrWHdfFO6yLlTQ6S5U30ND1MqkLH8WmnHlUxtU9mQHo0_bGWdLy0e8tk-Ehm3D4U2P19WujVefgE&state=nonce%3De486424831f34e24b1328212b3bf0547_20161026184116%26redir%3D
+2016-10-26T18:36:16  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:36:17  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:36:17  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:36:17  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:36:17  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDY5Nzd9.YUrR-d68tqkQOHZkp1DmFXSoZjHA4VxsymP1Sdm1bUw%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:36:17  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:36:17  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:36:18  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:36:18  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:36:18  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:36:18  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:37:52  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:37:52  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Dfee4ee852a9f4df0b9d50f1f464933d7_20161026184252%26redir%3D
+2016-10-26T18:37:52  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQDd1bAtkdBD-8MIbDYZzhdsy9h5vrmIRHj-5t_z11I_ejJw2n0LQ_zZieRT7tr0dTSBUZnL-wA8M-2EABp9SiDLq-e2fhe1n6TAPTi1pTleo7U-oQ8XgAEewdG02Ofp8-NDK3r3IA50RT0RWgfwdZmtfIxY6e98TQrF9udz0gkR_1eyLtaOLDgzUS2y2HmjUnHsXvfHBlIfKcWGzQGYdSSBPWkW_MvgD6wGGuliCWXqDwsBldOnoPkmRH4YVbUJTScKXdgDPsEh2Q2iQwePrjwJAiK6Y3RbNtVyIQdQ0dIG00xzlvmpYWQptWu3rszNTEs&state=nonce%3Dfee4ee852a9f4df0b9d50f1f464933d7_20161026184252%26redir%3D
+2016-10-26T18:37:52  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:37:52  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:37:53  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:37:53  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:37:53  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDcwNzN9.u8VahfLZ0eOlu4YDMmKk6sgJ8ozXni-4mno5S3SKzhA%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:37:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:37:53  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:37:54  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:37:54  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:37:54  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:37:54  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:40:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:40:31  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D819422b3aa2647da9adc66b18bd640fd_20161026184531%26redir%3D
+2016-10-26T18:40:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQDLzf5vghPgHWfIuFTNFaGQsKHZwXlKmD4zUwS0sZVNs4tg3jtT5xJKf0UC2hwbvJGC14YGnQsQGj3YBGUkx1_Qrv0nACY5xqOTn2urDyLd1OisfpZeTk8Nsn_2c4lHnimqn9pu24AB14mRpJaPvdvecUNWPQQaW7dvldjzLgImLW9hChskrNpH6AL6RRny4V3xvZoH0ct5ND7ncBlHqm6LO6YcI6BJhS9uvzhLDGzoKKjDmWASh9DfhkDNIWK4wnLdwwxpqfehiSc7eImVoWMWPzQ2RQAXVaS4agABcRNcvID0r6CBhj7T-pby5Mv3YAs&state=nonce%3D819422b3aa2647da9adc66b18bd640fd_20161026184531%26redir%3D
+2016-10-26T18:40:31  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:40:31  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:40:31  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:40:32  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:40:32  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDcyMzJ9.cjHvR6rLpP94luPmj-TdLZYX3z5GTKq0vtBEP9EC-Y8%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:40:32  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:40:32  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:40:33  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:40:33  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:40:33  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:40:33  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:43:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:43:31  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Df58d348ce65f42ca8072a296714b793a_20161026184831%26redir%3D
+2016-10-26T18:43:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQAJgx71Lt6PedAA-3id_Th-iPswYvfg1X1GvO_SUOmM2rH7dfU3_ROdwIuW9S7gZIpf4Nk4K7SBDKJb5td5HwSohOw1g_wt4jjr7ECv3lxEVefav7P3uJ3n5fZiMjaIBuzrnCHnKl6nlF59IZpXRMODGnYS130t8tuHV-50Z-ssYPfQmlDF7J4Mnr6Y2y6NT9aqa7yFtjLM3H1IGbHE4fC6L8vFD1yji32EiDoLFjBauEI0V_Wbzx-1zy-scqd_pqAeL3qJcm5t05PKYG2E7dgtqeHiR-CwxnWnOBDnhawBknmy2xVvXF7pUmXs5r1xtRg&state=nonce%3Df58d348ce65f42ca8072a296714b793a_20161026184831%26redir%3D
+2016-10-26T18:43:31  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:43:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:43:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:43:32  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:43:32  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDc0MTJ9.vOLsf_3VVh2-dkWb7U4jbcHbYx--ml-87v-2ug6JA2U%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:43:32  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:43:32  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:43:33  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:43:33  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:43:33  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:43:33  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:51:09  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:51:09  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D62c74d4c7ffe4dc0a70df91b5656fcaa_20161026185609%26redir%3D
+2016-10-26T18:51:10  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQB4tsH1afdPs25XtDIRQSQDumNNNanapQqJzYTsBFF59MF671HDMXcueX6zsyrNiOxSTw4y-SviGm8E2Ml3WDhBZuV7yF26nYlo7TEY6eGVSC3XusluJJj033qoFz81t2_uScCaz0rV8QPzDc8naN1j8LXstgk-eQ4jHageTk0lzrZ-fUsGExaVyIpRYy0LEeLjGQyeWTjz-XRIU86UuR4Ab8AxlqNnUgL3Jc0D1C682SDrYBSS6U4i8rVR85wy457t0IfCtkJFx1PShqSyigr-MNEDFxZ4I0QFESzVQhW3Oys78FxNW-9snJCU2-luBIw&state=nonce%3D62c74d4c7ffe4dc0a70df91b5656fcaa_20161026185609%26redir%3D
+2016-10-26T18:51:10  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:51:10  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:51:10  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:51:10  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:51:10  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDc4NzB9.C9kCRnp-_6WPlXV85lMJnaoKd_okaxGLXVLvp8MOVIg%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:51:10  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:51:10  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:51:11  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:51:11  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:51:11  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:51:11  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:53:59  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:53:59  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D6e5447a7962742068ecfd1d8125f619f_20161026185859%26redir%3D
+2016-10-26T18:54:05  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQCnrvGkOvP7p0yYpExaLS23Sblw52jaBm1-01sO-ljpxu_nwlHkCSFCWKPQtF-cFZ8SZp3NGAYRMGBml0cU29HG05bZO2W-R8u9YsU-qJFI5Nc9Z0aB10U9uM4vFfm66OeGd8X_ckuibsE9euVvO1bFQG_xi66SHkX2hb6MfZ1WPdAYrYyS0NUxgnxLUq-VqayBfSHZ6iiVs1nZq0hRlMhT-l4vZ8AIbur9WK6PSUShuND7KuKWT8VBwE1BagzIMogt3eziuV_w_s83kLkO6IFnaxUPaEoOZzyooux76ab1fzEsR_khsgnBnPe4ESN2PDs&state=nonce%3D6e5447a7962742068ecfd1d8125f619f_20161026185859%26redir%3D
+2016-10-26T18:54:05  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:54:06  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:54:06  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:54:06  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:54:06  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDgwNDZ9.We9rpbhIcZUcGwZ_HH_GWHthXpgrpf1J-U3Y_YsDbEg%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:54:06  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:54:06  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:54:07  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:54:07  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:54:07  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:54:07  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:56:32  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:56:32  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D78ccc056cc314b9f9c7d4cfab5fa5ed8_20161026190132%26redir%3D
+2016-10-26T18:56:32  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQCGXsftfqbXz_JRBtF7xdYV-TXoB2vREVlsJu7BsSC8y998vnRa0jtsFz3BwlhCZXTefqjnOlDmLzdUPRUJrEUWAoZxplRmzTcPiYAKm6B5Q-AJfvohhAX1IISx7xAMckt8JC1vQZhPcJDzuIUP6ej1h44Pb4RjHhtuHHkSasPSoDEUXbeC0-6LNBbEi1DHqdN1PXy_LsW2sZ9J2XZmo1z94yVBL66a8q1a_jrHHNONzDjxKVmKPGjHHAtX8lK5AaOiwuJ6o7gi6F144grXfp9LPC-flTuG3boVWXCriewvyLaYAeMCtb6iR8k921TO4Lg&state=nonce%3D78ccc056cc314b9f9c7d4cfab5fa5ed8_20161026190132%26redir%3D
+2016-10-26T18:56:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:56:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:56:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:56:33  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:56:33  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDgxOTN9.-VjJr_gMo_FnllSwys3wFRG_5sYWB5TEffI7C9Q6EvE%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:56:33  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:56:33  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:56:34  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:56:34  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:56:34  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:56:34  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:56:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T18:56:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T18:56:43  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:56:43  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:56:43  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:56:43  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:56:43  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:56:43  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:58:42  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T18:58:42  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D6df5ece03c5e46d18c96e354539e3eb3_20161026190342%26redir%3D
+2016-10-26T18:58:42  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQAPAw27UZP08ZwMfWsoAdWI9PGYgEFsh3DXXpdlJy9ODJaHB-FRu7l0ufL5pQj0how9LQ9Wm6j1_Dll7ksdvlyTR3kPfDTcHRlQ869ik4YwOWudJoMcPED4GeS1EyQkV59ZHhSMcvxliWzP288f7HZ5YjvwSGkgJjLwHWR5lFzbaoK4k-Mtu0745A53yD02-h-rpiAo69jAVNi3DMqzIfBIE9pvuZ3jpr_gvz66E5iKzzJOSIG2oy70VZ0-jtgpf1k8huP7wYUaiBnPa0h1E53h94h41CnQg1KUWm1GJDDE3ArITxDm6ApkSN50KNX-AxA&state=nonce%3D6df5ece03c5e46d18c96e354539e3eb3_20161026190342%26redir%3D
+2016-10-26T18:58:42  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:58:43  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T18:58:43  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T18:58:43  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T18:58:43  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDgzMjN9.abLVnOfQIeHaT6-9HN28S03mhbbjl2ddCbB2Q9HZRBs%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T18:58:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T18:58:43  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:58:44  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:58:44  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T18:58:44  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:58:44  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:58:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T18:58:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T18:58:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T18:58:53  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:58:53  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:58:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T18:58:53  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:58:53  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:58:53  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:58:53  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:58:53  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:58:53  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:58:53  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T18:58:53  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T18:58:53  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T18:58:53  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:01:32  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:01:32  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D301e936c78ce4962898a0d9915933b9b_20161026190632%26redir%3D
+2016-10-26T19:01:32  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQAwsNrMVVf_qelTiHxLwZ35918iVQ6cgeD-crWTFz4MLttaz1FFI2zBG6lnZOWGWdEornl3tbGGH24rNMpApGGKNwtu0gHAv08bMk_t3LewYMEUPGmP4c9UORfmWxLNCO16fBoJMNIjoTPQdMI5LEqIhPHIzxgRd5WRbwGRE0LaSKGENlrmPG-PdOqBULZoNBJhXPXU6R2j4yp7DzCMRfImS0J5rwt-hybGKnehBDxKUb8GWz2wSM8ugAhfI1fSR-mSB9gC84UO3wwb4-hMxSNeWjZefMQWQprQVaKCoXfr4Rk9lEKA5BU0cSj45ANmMw4&state=nonce%3D301e936c78ce4962898a0d9915933b9b_20161026190632%26redir%3D
+2016-10-26T19:01:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:01:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:01:32  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:01:33  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:01:33  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDg0OTN9.X09ni9D4sFVfO3fSNfFVG5RmddEuaawoJOcdGnX18FM%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:01:33  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:01:33  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:01:34  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:01:34  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:01:34  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:01:34  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:01:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:01:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:01:43  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:01:43  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:01:43  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:01:43  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:01:43  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:01:43  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:01:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:01:43  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:01:43  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:01:43  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:01:43  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:01:43  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:01:43  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:01:43  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:03:49  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:03:49  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D66c2e612f71442398427d3db1680e1df_20161026190849%26redir%3D
+2016-10-26T19:03:49  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQBrYstV9ujXks0Dzu5dYHjDY1EoNKz4N-GGQ1Pj1MCHh7tqwuPaYNve1tB_yAeQc2FMJ7SAuN01l-FC1tgn3KS8sO0KUbmrADYeD2GhBbxTNbHdeJ_A_C8RmLOvgy9TBfXfsrKfo7Xwc7dk1dvxeWme6-wIaAjHOT9GQw8RQ3kPaTh2yGvI96HGoDXRjnymtIFLZ4dAgtxwoDmZKwcfJMQ3xEXYkME2I72YFAigZAI2Cb8HWRFbNFk1XOBwZx56bdy0eaeOcONwoIttPv-mO2ptV2BDx68a4R36J3ArulwGG60izbJRjpkrJWpSGoPfMjg&state=nonce%3D66c2e612f71442398427d3db1680e1df_20161026190849%26redir%3D
+2016-10-26T19:03:49  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:03:49  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:03:50  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:03:50  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:03:50  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDg2MzB9.GTAt4kgtMYzOxUXbMsWEvXsOE8r6wtds5aMrk7c8VyE%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:03:50  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:03:50  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:03:51  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:03:51  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:03:51  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:03:51  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:04:00  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:04:00  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:04:00  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:04:00  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:04:00  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:04:00  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:04:00  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:04:00  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:04:00  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:04:00  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:04:00  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:04:00  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:04:00  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:04:00  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:04:00  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:04:00  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:07:23  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:07:23  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D38c7069061a8447994e14a6849f8cb72_20161026191223%26redir%3D
+2016-10-26T19:07:24  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQBsrX7KPD4Idj4wjyikjr_gGOeWvfLoPH31rYQNmzMhku3hHGdKDtQjjDM1kS8eX9-qXVCCZWKljN29nJq_gkH5pFvN9jKJ9GYXb1vQMFddUKkz6XNtIp1qSzDXS8MVmzJL6QQeVeAlU3OESWfY3C_v-QvD6eIfmZevxNXWnO6icPeqv7uMoapKDLJlaOs7fBT_7ljNQQ-irkgAENg6k7mVGWa1jPJiRfrQQueOknsxIOeOcolOw9upoZcp3IjzEu5oUJon-gZQXJ1QatEeof7afD8UjXm4vA3rBGY_9OQoXAdQ2a7DoaUpT8k1a9VKXKc&state=nonce%3D38c7069061a8447994e14a6849f8cb72_20161026191223%26redir%3D
+2016-10-26T19:07:24  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:07:24  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:07:24  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:07:24  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:07:24  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDg4NDR9.eMHvfCfCMumMVG1_vPD09bVe661CijQNP2tzTGrXnQ0%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:07:24  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:07:24  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:07:25  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:07:25  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:07:25  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:07:25  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:07:25  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:07:25  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:07:25  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:07:25  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:07:25  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:07:25  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:07:25  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:07:25  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:07:25  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:07:25  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:07:25  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:07:25  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:07:25  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:07:25  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:07:25  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:07:25  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:08:01  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:08:01  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D310d24c846404a0aa1f6615d9bef11f4_20161026191301%26redir%3D
+2016-10-26T19:08:02  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQAQrq26bmY-HH7dC8qVMELZQ5y2Rnzk2pufgt8LbsIvH4r5hMzF1vDQ9g0W3olQZ_8M5B-ups80skMsHRzsgGUzyo4fGX2JBegHdi0EQzD_suOgOCJnrOgkPxVIzQEEgYho2C1fQzokpV38zx-pBupKjpz3RFqLeIMoXvz7xfLsOc4A-nhFtexR77pEjLtFTUFPs6G1RDlt0CpLDmn5G6PzJZDWDxi47IB9eTJ-M9R2Uhhu3ShbhDLUogc8qYHLs8SDMI2ChPP4lyy8CTsM1SRWnrqmsdPzUvxBFSSN10MTIkD4KEMiGCAKilI297nVgcw&state=nonce%3D310d24c846404a0aa1f6615d9bef11f4_20161026191301%26redir%3D
+2016-10-26T19:08:02  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:08:02  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:08:02  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:08:02  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:08:02  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDg4ODJ9.lo0y528KCIaJc2UsMU7g0NQBjmYtRoRfuZQP0Fus4wc%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:08:02  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:08:02  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:08:03  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:08:03  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:08:03  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:08:03  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:08:03  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:08:03  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:08:03  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:08:03  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:08:03  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:08:03  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:08:03  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:08:03  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:08:03  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:08:03  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:08:03  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:08:03  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:08:03  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:08:03  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:08:03  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:08:03  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:09:37  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:09:37  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Daf55b43d1849486289791014b8b3cadd_20161026191437%26redir%3D
+2016-10-26T19:09:37  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQD4ej8QBkzX2HR7Ujdb2yTK2nrg8dPWDlu8ByOeoLTGqhNE35j9cxKQoIjc494HMR88sp6XeuJnDok7p4tXopFOYF8-giovr4oFNnZ0wWkr-dpz6_92vnLHeSYtBFFFs5STq7LfKry6R68LiM3_OtkSyjNlpbBq5OOSnjcZfW62f_YmwNuy4CHh1ypLxm4JpQeTgzGcmx1Dy6v5_TjrkM8bMx4w23sw_sG7nbJxb7k6nOb_S6uMO2KmicOcDRHjSDLpgQIZoPKBUWULYSYzE5Hwc4KShmIPmsILQHSQ_FEcgpdXHuQ6WR9ZMObabzFIEQ8&state=nonce%3Daf55b43d1849486289791014b8b3cadd_20161026191437%26redir%3D
+2016-10-26T19:09:37  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:09:37  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:09:37  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:09:38  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:09:38  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDg5Nzh9.VqcqkFwn1eS8Bhm8xkZoCpzq5Rq-0YVFgVdDgIrv39E%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:09:38  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:09:38  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:09:38  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:09:38  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:09:38  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:09:38  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:09:48  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:09:48  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:09:48  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:09:48  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:09:48  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:09:48  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:09:48  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:09:48  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:10:29  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:10:29  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Dc0d2ea257e6d47949a43a9ff93036988_20161026191529%26redir%3D
+2016-10-26T19:10:29  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQDWwpn2bWtKeuYmCdFvp72wnB8fuavAeSv-B5RYnC9kbBuI1x73GBPILLf8ik0fW1vbOubVEwb7DgdzVajA4ScwTohkfoUcImR-ob5bqKFbO64LNxhNvjC9imNCYSoYHlEw4sVXgn36__91wrbU5m6mrFkNKom4LV16iwygW-sqechhcRS7hZAF5gMyITvrm74nUpYAR8JZE87TANjAVBny__d4kS9S_cPxAUxP7O1PFfQun9GSA4qNbBFHc54a3PPCmcYyl-BD3vjmwlXSYgeivXhygi0bOHSinogEmZhK3uilu77YcNGT0d300rXQSOE&state=nonce%3Dc0d2ea257e6d47949a43a9ff93036988_20161026191529%26redir%3D
+2016-10-26T19:10:29  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:10:29  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:10:29  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:10:29  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:10:29  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDkwMjl9.yi6TtZ9OYaRuP2TssrlXkEaY1NZ8UWuUJgKGkwArsWw%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:10:30  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:10:30  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:10:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:10:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:10:31  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:10:31  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:10:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:10:31  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:10:31  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:10:31  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:10:31  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:10:31  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:10:31  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:10:31  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:10:51  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:10:51  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D0915df5bfd62406b94fd1ec8ff0b9b4c_20161026191551%26redir%3D
+2016-10-26T19:10:51  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQAs3BIDXjh8inX93ACDR4qNvr25rOjcnrMBZyJZBQqdzxH8i0ul3eArmlEdP-EfFLs5fQMjliK-a33xpI1Lg7hAALqE0KqyHfG-igtER5HfsX3NlGiWlhu-HcnkjIhi10zXHWXuH3I-DnMPBuoRbVpgaJZA1BPlu2FvfFA9wcl2r7vAV7PPGSPuq3w4yx1fDzkGeuIEtJlKbiGSbBkvjSuwNubZ421tnFCoCgbgHmjaQt5udXGykTdGwKUhZzlCqV3pvLTw3fbg7KuuDNfEsLMUaMSE5ysXehQTxO4U-b09HosGnOm7cPjcsGrRx4thHII&state=nonce%3D0915df5bfd62406b94fd1ec8ff0b9b4c_20161026191551%26redir%3D
+2016-10-26T19:10:51  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:10:51  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:10:52  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:10:52  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:10:52  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDkwNTJ9.Fh5w3ULbGCGLGrmWPUe3kp2HKLN1N138y1_FfUX0JSg%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:10:52  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:10:52  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:10:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:10:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:10:53  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:10:53  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:10:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:10:53  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:10:53  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:10:53  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:10:53  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:10:53  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:10:53  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:10:53  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:15:34  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:15:34  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Dbd5961afeb5f4f59b28a94692f2584ca_20161026192034%26redir%3D
+2016-10-26T19:15:34  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQCXgPGr8mh07exkuYAYqFF_q2ALP0-7orcRnuulovTG9Y7vX_AQy5W9KkCh2t8-qTJIAEc5TeE1fGNJnRl5OYxlhVy5DtU7QcAE5crz4djN5dSP1Fil5OuyH2fDwaKAyPoQSz9n6amzqF2SRCyebNf0IrndQlQVEDEzwzHTtGcSzv12C6qJOKNg6C_f7i0uitLiIXZpfks8Tj76IXMW9Hkfh-aKj8UT43pPOiFhtmUdMRkatNjQtrOb1LyptoBaCjFlFaccVb1sMWl9pHGOvxauduMzHdQIqV2HWxJwaIvoyEPXEY9pIgez54pFUy8ScxU&state=nonce%3Dbd5961afeb5f4f59b28a94692f2584ca_20161026192034%26redir%3D
+2016-10-26T19:15:34  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:15:34  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:15:34  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:15:35  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:15:35  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDkzMzV9.wS9SOjvH0vkj8ck07fIKEJZ9QnMxH-fjntwM_3aCrpY%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:15:35  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:15:35  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:15:36  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:15:36  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:15:36  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:15:36  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:15:44  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:15:44  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:15:44  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:15:44  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:15:44  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:15:44  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:15:44  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:15:44  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:20:19  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:20:19  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D6e674dd335f149128259f9dc65ae9b0c_20161026192519%26redir%3D
+2016-10-26T19:20:19  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQA9hTOQBd4D5nW1MgoTfj9M9A-H9G2ECqhAMsUNwvdtKNwszYcrU6z7LLjLD_4DD-sgRoPoqBfwz_9YInqrUCCxE1Zyqy9smmcE4vPrsRfchRJVftDz0ytK-lm2T_rJFJU3wxr8_VjL8qmFqSQY_pg5YSCBQjaGWg6Wd3gPaVanGu2hexaL7mKhDdkjdRCDKbTez_ipu2yiQF9bK3rrDsc_hcp2OdG8GRAbV34_uYpf8Yyl5CT0x0_gVSlvMmL2ccDLummV1EvlBu4RrzFCTC6o_NXINQx4ZlI9IzWIbdPdNN4jLXzzqNjUQDyWRycx4EA&state=nonce%3D6e674dd335f149128259f9dc65ae9b0c_20161026192519%26redir%3D
+2016-10-26T19:20:19  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:20:20  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:20:20  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:20:20  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:20:20  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDk2MjB9.Bi8GkNrHWiCwhG5xF5Sv9RpS7qunVZyU-85QrRlA8ZE%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:20:20  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:20:20  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:20:21  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:20:21  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:20:21  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:20:21  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:20:30  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:20:30  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:20:30  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:20:30  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:20:30  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:20:30  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:20:30  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:20:30  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:21:46  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:21:46  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D2eb87c33d85843189e401a20be86dcf6_20161026192646%26redir%3D
+2016-10-26T19:21:47  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQDkDmu2gyUULY0ZrlyYE0wCcDdwdRpbGXhonyIpyAEbObZ5AEmWMdefyVgd-NQTbXr0U3rQJb_nBPHN_mnube_PI96qyJELdIsRaLyyp7zJL2KIqJ992WggdXH3SSPKANAPfamSvL83EAHq2kn2NK13p--5wn3lh4vIziD_714TcUDkeqJFZM14--QolBtrerbR7aimObMpA_rX9C65spXXRvTbpbypNBkO_PF16K-1iNTIX96OHWWF50Oj1E6mSQ9KdcucWegNmFv_m4plul9WZfTtny5eB-5fl619UWIJv4A7FAurjfuAj2AW0CKcPms&state=nonce%3D2eb87c33d85843189e401a20be86dcf6_20161026192646%26redir%3D
+2016-10-26T19:21:47  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:21:47  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:21:47  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:21:47  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:21:47  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDk3MDd9.vQIkx1Iw72u8FMnrAD3-bOavNTYcUA9LEK9hlGIZ0ns%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:21:47  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:21:47  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:21:48  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:21:48  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:21:48  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:21:48  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:21:48  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:21:48  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:21:48  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:21:48  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:21:48  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:21:48  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:21:48  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:21:48  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:24:17  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:24:17  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Dc59031f5954e4edda7a7077c682bb763_20161026192917%26redir%3D
+2016-10-26T19:24:18  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQCt_eSQFBVy4YI1KmKU7h-ldPvQdClNbs8ZwJDoCi7WyE2t0ySuTymDCanuhV6wIHarK4OczpJJ6Aciql05cLygrP3kxXzFaHvn5OEGw0Eph_DIiOq-KE0tbycrY__QGEnKEL3_nScKHIZ2lIYbqTG33tzAZncmBIcwHKczWBqgELooXWNDT-OkPKZYArRWGZmTRe83B2YdYA99mkw3SAyafZW6x5dMllaBr2dyJwtoUMXy0ujwtcYqdQD_P-dJun9n1ABT_t1jbeD13b7b_R39kAHHR3F5ZSisz2hMSBtHrcZ0mCokzrGZibukFMuYdRs&state=nonce%3Dc59031f5954e4edda7a7077c682bb763_20161026192917%26redir%3D
+2016-10-26T19:24:18  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:24:18  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:24:18  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:24:18  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:24:18  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDk4NTh9.FVsEXLcCx7eUY4yk1QUcbMqrvjjoBSPWbanQfIEX7Dg%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:24:18  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:24:18  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:24:19  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:24:19  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:24:19  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:24:19  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:24:28  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:24:28  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:24:28  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:24:28  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:24:28  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:24:28  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:24:28  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:24:28  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:25:38  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-26T19:25:38  PID[6712] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3De04dbc57e2e54f9fb00fdc606f08b037_20161026193038%26redir%3D
+2016-10-26T19:25:39  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQCmL04TqhGEY5Yr3Xo-hE56qy6plu-BOP_WnENUxKN5IzRfcFgZtgg0hbIawlmB5ClMOkah74c6PRQahy68Te2xtugZ5cr6c2yBULf9PIISrciaJ5iK7wjC-PLk3Vex-MIQEQXjPZT8FSEI72yS_mLfqzbI6xBEDw6EsKiKHKLfDZC5JacehvulELOvCpYDCo4hU_-4WKOehIn7UX1o97O9QxiNgus8Xb7NBpHT6UHtTIxTmGjvm7wT_B_6AmfNmXGlcGAcdN91Bq_kodROaIKEButqyx82AIOJyYl5iRxQ66zreP1QuGtOtGMNhT6IZZk&state=nonce%3De04dbc57e2e54f9fb00fdc606f08b037_20161026193038%26redir%3D
+2016-10-26T19:25:39  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:25:39  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-26T19:25:39  PID[6712] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-26T19:25:39  PID[6712] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-26T19:25:39  PID[6712] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDk5Mzl9.bG1_n390qC3rwNsoolU2Qe6r21KdM64czSrqQaTETEc%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-26T19:25:39  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-26T19:25:39  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:25:40  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:25:40  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-26T19:25:40  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:25:40  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:25:49  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:25:49  PID[6712] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-26T19:25:49  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:25:49  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:25:49  PID[6712] Information Sending response: 200.0 OK
+2016-10-26T19:25:49  PID[6712] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-26T19:25:49  PID[6712] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-26T19:25:49  PID[6712] Information Sending response: 200.0 OK

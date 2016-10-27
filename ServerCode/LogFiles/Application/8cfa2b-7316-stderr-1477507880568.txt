@@ -1,0 +1,11 @@
+2016-10-26T18:51:20.568Z - [31merror[39m:  TypeError: currentUser.getIdentities is not a function
+    at module.exports.get (D:\home\site\wwwroot\api\facebookAPI.js:7:21)
+    at Layer.handle [as handle_request] (D:\home\site\wwwroot\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\home\site\wwwroot\node_modules\express\lib\router\route.js:131:13)
+    at module.exports (D:\home\site\wwwroot\node_modules\azure-mobile-apps\src\express\middleware\authorize.js:13:9)
+    at Layer.handle [as handle_request] (D:\home\site\wwwroot\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\home\site\wwwroot\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\home\site\wwwroot\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\home\site\wwwroot\node_modules\express\lib\router\layer.js:95:5)
+    at D:\home\site\wwwroot\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\home\site\wwwroot\node_modules\express\lib\router\index.js:330:12)

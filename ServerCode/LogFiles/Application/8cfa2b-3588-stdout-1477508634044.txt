@@ -1,0 +1,251 @@
+2016-10-26T19:03:54.028Z - [35msilly[39m: Configured with the following values:
+{
+  "platform": "express",
+  "basePath": "D:\\home\\site\\wwwroot",
+  "configFile": "azureMobile",
+  "apiRootPath": "/api",
+  "tableRootPath": "/tables",
+  "notificationRootPath": "/push/installations",
+  "swaggerPath": "/swagger",
+  "authStubRoute": "/.auth/login/:provider",
+  "debug": false,
+  "version": "node-3.0.1",
+  "apiVersion": "2.0.0",
+  "homePage": true,
+  "swagger": false,
+  "maxTop": 1000,
+  "pageSize": 50,
+  "userIdColumn": "userId",
+  "logging": {
+    "level": "silly",
+    "transports": [
+      {
+        "domain": null,
+        "_events": {},
+        "_eventsCount": 0,
+        "silent": false,
+        "raw": false,
+        "name": "console",
+        "handleExceptions": false,
+        "exceptionsLevel": "error",
+        "humanReadableUnhandledException": false,
+        "json": false,
+        "colorize": true,
+        "prettyPrint": false,
+        "timestamp": true,
+        "showLevel": true,
+        "label": null,
+        "logstash": false,
+        "depth": null,
+        "align": false,
+        "stderrLevels": {
+          "error": true,
+          "debug": true
+        },
+        "eol": "\r\n"
+      }
+    ]
+  },
+  "cors": {
+    "exposeHeaders": "Link,Etag",
+    "maxAge": 300,
+    "hostnames": [
+      "localhost"
+    ]
+  },
+  "data": {
+    "provider": "mssql",
+    "schema": "dbo",
+    "dynamicSchema": true,
+    "connectionString": "Data Source=tcp:scoopsappserver.database.windows.net,1433;Initial Catalog=ScoopsAppDB;User ID=scoopsuser@scoopsappserver;Password=ScoopsPassword2016",
+    "user": "scoopsuser@scoopsappserver",
+    "password": "ScoopsPassword2016",
+    "server": "scoopsappserver.database.windows.net",
+    "port": 1433,
+    "database": "ScoopsAppDB",
+    "connectionTimeout": 15000,
+    "options": {
+      "encrypt": true
+    }
+  },
+  "auth": {
+    "secret": "0000",
+    "validateTokens": false,
+    "azureSigningKey": "F108BE4F6CB502EA2B4D9024B580BDB471D713B35387367496ABA9BA03CFFB35",
+    "audience": "https://scoopsapp.azurewebsites.net/",
+    "issuer": "https://scoopsapp.azurewebsites.net/"
+  },
+  "notifications": {},
+  "storage": {},
+  "name": "ScoopsApp",
+  "hosted": true
+}
+2016-10-26T19:03:54.533Z - [36mverbose[39m: SQL Azure database detected - setting connection encryption
+2016-10-26T19:03:54.753Z - [35msilly[39m: Not loading plugin azure-mobile-apps-files: Cannot find module 'azure-mobile-apps-files'
+2016-10-26T19:03:57.545Z - [36mverbose[39m: SQL Azure database detected - setting connection encryption
+2016-10-26T19:03:58.506Z - [35msilly[39m: Loaded D:\home\site\wwwroot\tables\Post.js
+2016-10-26T19:03:58.522Z - [35msilly[39m: Loaded D:\home\site\wwwroot\tables\Post.json
+2016-10-26T19:03:58.522Z - [36mverbose[39m: Adding table definition for Post
+2016-10-26T19:03:58.631Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\facebookAPI.js
+2016-10-26T19:03:58.647Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\facebookAPI.json
+2016-10-26T19:03:58.663Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\scoopsAPI.js
+2016-10-26T19:03:58.663Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\scoopsAPI.json
+2016-10-26T19:03:58.678Z - [36mverbose[39m: Adding method get to api facebookAPI
+2016-10-26T19:03:58.678Z - [36mverbose[39m: Adding authorization to get for api facebookAPI
+2016-10-26T19:03:58.678Z - [36mverbose[39m: Adding method post to api scoopsAPI
+2016-10-26T19:03:59.909Z - [35msilly[39m: Executing SQL statement SELECT COLUMN_NAME AS name, DATA_TYPE AS type FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @table AND TABLE_SCHEMA = @schema with parameters [{"name":"table","value":"Post"},{"name":"schema","value":"dbo"}]
+2016-10-26T19:03:59.925Z - [32minfo[39m: Updating schema for table Post
+2016-10-26T19:03:59.940Z - [35msilly[39m: Executing SQL statement SELECT COLUMN_NAME AS name, DATA_TYPE AS type FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @table AND TABLE_SCHEMA = @schema with parameters [{"name":"table","value":"Post"},{"name":"schema","value":"dbo"}]
+2016-10-26T19:04:00.190Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDg2MzB9.GTAt4kgtMYzOxUXbMsWEvXsOE8r6wtds5aMrk7c8VyE
+Promise { <pending> }
+2016-10-26T19:04:00.284Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDg2MzB9.GTAt4kgtMYzOxUXbMsWEvXsOE8r6wtds5aMrk7c8VyE
+2016-10-26T19:04:00.331Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-26T19:04:00.346Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBAK9kvtbSO432epDIZCZCYIMQ5Ium6xWaBYRnq8RZCYAT8GusZCZCRurNghUqfZAGXnu3HyQ3xUEfXGCUs31Rdcc49LEu1MfzCNuDfKEBAyZBe2RXKiCFmtOCkYVAgySwqH5fqKpZA0Hm","expires_on":"2016-12-25T17:14:15.9805026Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+{ access_token: 'EAAZAN6YFUZCNMBAK9kvtbSO432epDIZCZCYIMQ5Ium6xWaBYRnq8RZCYAT8GusZCZCRurNghUqfZAGXnu3HyQ3xUEfXGCUs31Rdcc49LEu1MfzCNuDfKEBAyZBe2RXKiCFmtOCkYVAgySwqH5fqKpZA0Hm',
+  expires_on: '2016-12-25T17:14:15.9805026Z',
+  provider_name: 'facebook',
+  user_claims: 
+   [ { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier',
+       val: '10154625817278669' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress',
+       val: 'ivan5ag@hotmail.com' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name',
+       val: 'Ivan Aguilar Martin' },
+     { typ: 'urn:facebook:link',
+       val: 'https://www.facebook.com/app_scoped_user_id/10154625817278669/' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname',
+       val: 'Ivan' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname',
+       val: 'Aguilar Martin' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender',
+       val: 'male' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth',
+       val: '11/18/1984' },
+     { typ: 'urn:facebook:locale', val: 'es_ES' },
+     { typ: 'urn:facebook:timezone', val: '2' } ],
+  user_id: 'ivan5ag@hotmail.com',
+  claims: 
+   { 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier': '10154625817278669',
+     nameidentifier: '10154625817278669',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress': 'ivan5ag@hotmail.com',
+     emailaddress: 'ivan5ag@hotmail.com',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name': 'Ivan Aguilar Martin',
+     name: 'Ivan Aguilar Martin',
+     'urn:facebook:link': 'https://www.facebook.com/app_scoped_user_id/10154625817278669/',
+     link: 'https://www.facebook.com/app_scoped_user_id/10154625817278669/',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname': 'Ivan',
+     givenname: 'Ivan',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname': 'Aguilar Martin',
+     surname: 'Aguilar Martin',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender': 'male',
+     gender: 'male',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth': '11/18/1984',
+     dateofbirth: '11/18/1984',
+     'urn:facebook:locale': 'es_ES',
+     locale: 'es_ES',
+     'urn:facebook:timezone': '2',
+     timezone: '2' } }
+2016-10-26T19:04:00.362Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-26T19:04:00.378Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBAK9kvtbSO432epDIZCZCYIMQ5Ium6xWaBYRnq8RZCYAT8GusZCZCRurNghUqfZAGXnu3HyQ3xUEfXGCUs31Rdcc49LEu1MfzCNuDfKEBAyZBe2RXKiCFmtOCkYVAgySwqH5fqKpZA0Hm","expires_on":"2016-12-25T17:14:15.9805026Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+2016-10-26T19:07:25.749Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDg4NDR9.eMHvfCfCMumMVG1_vPD09bVe661CijQNP2tzTGrXnQ0
+Promise { <pending> }
+2016-10-26T19:07:25.765Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDg4NDR9.eMHvfCfCMumMVG1_vPD09bVe661CijQNP2tzTGrXnQ0
+2016-10-26T19:07:25.812Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-26T19:07:25.812Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBAM2FZAyjAq7rpBcoxfBAR8CLDuSgiLAObNY27IJZCX4ZBjCqfI2JR82GjOW6GQbJuw8yoQWzSLPy8RES6bVW1fYu2JrZA0exuZCJddJZBrjfB9H2AUKPWsCYsUpLfztSZCWgecedADAZCgmkMeVdmNQZD","expires_on":"2016-12-25T17:14:16.5263475Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+2016-10-26T19:07:25.812Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-26T19:07:25.827Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBAM2FZAyjAq7rpBcoxfBAR8CLDuSgiLAObNY27IJZCX4ZBjCqfI2JR82GjOW6GQbJuw8yoQWzSLPy8RES6bVW1fYu2JrZA0exuZCJddJZBrjfB9H2AUKPWsCYsUpLfztSZCWgecedADAZCgmkMeVdmNQZD","expires_on":"2016-12-25T17:14:16.5263475Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+{ access_token: 'EAAZAN6YFUZCNMBAM2FZAyjAq7rpBcoxfBAR8CLDuSgiLAObNY27IJZCX4ZBjCqfI2JR82GjOW6GQbJuw8yoQWzSLPy8RES6bVW1fYu2JrZA0exuZCJddJZBrjfB9H2AUKPWsCYsUpLfztSZCWgecedADAZCgmkMeVdmNQZD',
+  expires_on: '2016-12-25T17:14:16.5263475Z',
+  provider_name: 'facebook',
+  user_claims: 
+   [ { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier',
+       val: '10154625817278669' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress',
+       val: 'ivan5ag@hotmail.com' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name',
+       val: 'Ivan Aguilar Martin' },
+     { typ: 'urn:facebook:link',
+       val: 'https://www.facebook.com/app_scoped_user_id/10154625817278669/' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname',
+       val: 'Ivan' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname',
+       val: 'Aguilar Martin' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender',
+       val: 'male' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth',
+       val: '11/18/1984' },
+     { typ: 'urn:facebook:locale', val: 'es_ES' },
+     { typ: 'urn:facebook:timezone', val: '2' } ],
+  user_id: 'ivan5ag@hotmail.com',
+  claims: 
+   { 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier': '10154625817278669',
+     nameidentifier: '10154625817278669',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress': 'ivan5ag@hotmail.com',
+     emailaddress: 'ivan5ag@hotmail.com',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name': 'Ivan Aguilar Martin',
+     name: 'Ivan Aguilar Martin',
+     'urn:facebook:link': 'https://www.facebook.com/app_scoped_user_id/10154625817278669/',
+     link: 'https://www.facebook.com/app_scoped_user_id/10154625817278669/',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname': 'Ivan',
+     givenname: 'Ivan',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname': 'Aguilar Martin',
+     surname: 'Aguilar Martin',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender': 'male',
+     gender: 'male',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth': '11/18/1984',
+     dateofbirth: '11/18/1984',
+     'urn:facebook:locale': 'es_ES',
+     locale: 'es_ES',
+     'urn:facebook:timezone': '2',
+     timezone: '2' } }
+2016-10-26T19:08:03.697Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDg4ODJ9.lo0y528KCIaJc2UsMU7g0NQBjmYtRoRfuZQP0Fus4wc
+Promise { <pending> }
+2016-10-26T19:08:03.713Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1MDg4ODJ9.lo0y528KCIaJc2UsMU7g0NQBjmYtRoRfuZQP0Fus4wc
+2016-10-26T19:08:03.760Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-26T19:08:03.776Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBAJJAr3oj4qSZAC9qnpPG7GIWcwqrWjkuVTzZC4Us7sqELHm8dqZCZAIko5Oucm4mHqOT4VSsfZBoALf1EYV0ifx2LhbOwt3JXIqpIEQSPo4UYIPOFziBg1HrKiBmH6pYiSy8PQrJm","expires_on":"2016-12-25T17:14:16.5253761Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+2016-10-26T19:08:03.776Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-26T19:08:03.791Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBAJJAr3oj4qSZAC9qnpPG7GIWcwqrWjkuVTzZC4Us7sqELHm8dqZCZAIko5Oucm4mHqOT4VSsfZBoALf1EYV0ifx2LhbOwt3JXIqpIEQSPo4UYIPOFziBg1HrKiBmH6pYiSy8PQrJm","expires_on":"2016-12-25T17:14:16.5253761Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+{ access_token: 'EAAZAN6YFUZCNMBAJJAr3oj4qSZAC9qnpPG7GIWcwqrWjkuVTzZC4Us7sqELHm8dqZCZAIko5Oucm4mHqOT4VSsfZBoALf1EYV0ifx2LhbOwt3JXIqpIEQSPo4UYIPOFziBg1HrKiBmH6pYiSy8PQrJm',
+  expires_on: '2016-12-25T17:14:16.5253761Z',
+  provider_name: 'facebook',
+  user_claims: 
+   [ { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier',
+       val: '10154625817278669' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress',
+       val: 'ivan5ag@hotmail.com' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name',
+       val: 'Ivan Aguilar Martin' },
+     { typ: 'urn:facebook:link',
+       val: 'https://www.facebook.com/app_scoped_user_id/10154625817278669/' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname',
+       val: 'Ivan' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname',
+       val: 'Aguilar Martin' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender',
+       val: 'male' },
+     { typ: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth',
+       val: '11/18/1984' },
+     { typ: 'urn:facebook:locale', val: 'es_ES' },
+     { typ: 'urn:facebook:timezone', val: '2' } ],
+  user_id: 'ivan5ag@hotmail.com',
+  claims: 
+   { 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier': '10154625817278669',
+     nameidentifier: '10154625817278669',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress': 'ivan5ag@hotmail.com',
+     emailaddress: 'ivan5ag@hotmail.com',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name': 'Ivan Aguilar Martin',
+     name: 'Ivan Aguilar Martin',
+     'urn:facebook:link': 'https://www.facebook.com/app_scoped_user_id/10154625817278669/',
+     link: 'https://www.facebook.com/app_scoped_user_id/10154625817278669/',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname': 'Ivan',
+     givenname: 'Ivan',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname': 'Aguilar Martin',
+     surname: 'Aguilar Martin',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender': 'male',
+     gender: 'male',
+     'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth': '11/18/1984',
+     dateofbirth: '11/18/1984',
+     'urn:facebook:locale': 'es_ES',
+     locale: 'es_ES',
+     'urn:facebook:timezone': '2',
+     timezone: '2' } }

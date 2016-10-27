@@ -1,0 +1,147 @@
+2016-10-27T10:27:07.308Z - [35msilly[39m: Configured with the following values:
+{
+  "platform": "express",
+  "basePath": "D:\\home\\site\\wwwroot",
+  "configFile": "azureMobile",
+  "apiRootPath": "/api",
+  "tableRootPath": "/tables",
+  "notificationRootPath": "/push/installations",
+  "swaggerPath": "/swagger",
+  "authStubRoute": "/.auth/login/:provider",
+  "debug": false,
+  "version": "node-3.0.1",
+  "apiVersion": "2.0.0",
+  "homePage": true,
+  "swagger": false,
+  "maxTop": 1000,
+  "pageSize": 50,
+  "userIdColumn": "userId",
+  "logging": {
+    "level": "silly",
+    "transports": [
+      {
+        "domain": null,
+        "_events": {},
+        "_eventsCount": 0,
+        "silent": false,
+        "raw": false,
+        "name": "console",
+        "handleExceptions": false,
+        "exceptionsLevel": "error",
+        "humanReadableUnhandledException": false,
+        "json": false,
+        "colorize": true,
+        "prettyPrint": false,
+        "timestamp": true,
+        "showLevel": true,
+        "label": null,
+        "logstash": false,
+        "depth": null,
+        "align": false,
+        "stderrLevels": {
+          "error": true,
+          "debug": true
+        },
+        "eol": "\r\n"
+      }
+    ]
+  },
+  "cors": {
+    "exposeHeaders": "Link,Etag",
+    "maxAge": 300,
+    "hostnames": [
+      "localhost"
+    ]
+  },
+  "data": {
+    "provider": "mssql",
+    "schema": "dbo",
+    "dynamicSchema": true,
+    "connectionString": "Data Source=tcp:scoopsappserver.database.windows.net,1433;Initial Catalog=ScoopsAppDB;User ID=scoopsuser@scoopsappserver;Password=ScoopsPassword2016",
+    "user": "scoopsuser@scoopsappserver",
+    "password": "ScoopsPassword2016",
+    "server": "scoopsappserver.database.windows.net",
+    "port": 1433,
+    "database": "ScoopsAppDB",
+    "connectionTimeout": 15000,
+    "options": {
+      "encrypt": true
+    }
+  },
+  "auth": {
+    "secret": "0000",
+    "validateTokens": false,
+    "azureSigningKey": "F108BE4F6CB502EA2B4D9024B580BDB471D713B35387367496ABA9BA03CFFB35",
+    "audience": "https://scoopsapp.azurewebsites.net/",
+    "issuer": "https://scoopsapp.azurewebsites.net/"
+  },
+  "notifications": {},
+  "storage": {},
+  "name": "ScoopsApp",
+  "hosted": true
+}
+2016-10-27T10:27:07.730Z - [36mverbose[39m: SQL Azure database detected - setting connection encryption
+2016-10-27T10:27:07.933Z - [35msilly[39m: Not loading plugin azure-mobile-apps-files: Cannot find module 'azure-mobile-apps-files'
+2016-10-27T10:27:10.832Z - [36mverbose[39m: SQL Azure database detected - setting connection encryption
+2016-10-27T10:27:11.749Z - [35msilly[39m: Loaded D:\home\site\wwwroot\tables\Post.js
+2016-10-27T10:27:11.749Z - [35msilly[39m: Loaded D:\home\site\wwwroot\tables\Post.json
+2016-10-27T10:27:11.765Z - [36mverbose[39m: Adding table definition for Post
+2016-10-27T10:27:11.843Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\facebookAPI.js
+2016-10-27T10:27:11.858Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\facebookAPI.json
+2016-10-27T10:27:11.874Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\scoopsAPI.js
+2016-10-27T10:27:11.874Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\scoopsAPI.json
+2016-10-27T10:27:11.890Z - [36mverbose[39m: Adding method get to api facebookAPI
+2016-10-27T10:27:11.890Z - [36mverbose[39m: Adding authorization to get for api facebookAPI
+2016-10-27T10:27:11.890Z - [36mverbose[39m: Adding method post to api scoopsAPI
+2016-10-27T10:27:13.135Z - [35msilly[39m: Executing SQL statement SELECT COLUMN_NAME AS name, DATA_TYPE AS type FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @table AND TABLE_SCHEMA = @schema with parameters [{"name":"table","value":"Post"},{"name":"schema","value":"dbo"}]
+2016-10-27T10:27:13.166Z - [32minfo[39m: Updating schema for table Post
+2016-10-27T10:27:13.166Z - [35msilly[39m: Executing SQL statement SELECT COLUMN_NAME AS name, DATA_TYPE AS type FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @table AND TABLE_SCHEMA = @schema with parameters [{"name":"table","value":"Post"},{"name":"schema","value":"dbo"}]
+2016-10-27T10:27:13.479Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1NjQwMjN9.lz0JrkpEPTwIVFW6cB5HZP9bcGCrMBXUiLfda8BFGKA
+2016-10-27T10:27:13.541Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-27T10:27:13.557Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBAFx0OzwLBYyBfc8g2ZBaAEtIZBCQsYjXGlDLQ77gKW4j9XkjNRJANMg53ETnNK6EHhMmdXuhH52FU5ZA8FZA6RHsA8tOFOsUQsQMRZApjNZASX9yWPoyGbGmUJ7Xm6CFzlX73unEjS","expires_on":"2016-12-25T17:14:16.3161390Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+Identidad:
+{ id: 'ivan5ag@hotmail.com', name: 'Ivan Aguilar Martin' }
+2016-10-27T10:28:08.167Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (([published] = @p1) AND ([deleted] = @p2)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":true},{"name":"p2","pos":2,"value":false}]
+2016-10-27T10:28:08.308Z - [35msilly[39m: Read query returned 3 results
+2016-10-27T10:28:10.775Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE ((([author] = @p1) AND (([published] = @p2) OR ([publicationRequested] = @p3))) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":true},{"name":"p3","pos":3,"value":true},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:28:10.791Z - [35msilly[39m: Read query returned 3 results
+2016-10-27T10:28:14.804Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (((([author] = @p1) AND ([published] = @p2)) AND ([publicationRequested] = @p3)) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":false},{"name":"p3","pos":3,"value":false},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:28:14.820Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:28:23.580Z - [35msilly[39m: Executing SQL statement INSERT INTO [dbo].[Post] ([id]) VALUES (@id); SELECT * FROM [dbo].[Post] WHERE [id] = @id with parameters [{"name":"id","value":"39f5ac54-46a0-4e88-8248-dc265ab974c3","type":{"length":255}}]
+2016-10-27T10:28:43.045Z - [35msilly[39m: Executing SQL statement UPDATE [dbo].[Post] SET [author] = @author,[published] = @published,[longitude] = @longitude,[title] = @title,[image] = @image,[latitude] = @latitude,[text] = @text,[author_name] = @author_name,[publicationRequested] = @publicationRequested,[readings] = @readings WHERE [id] = @id; SELECT @@ROWCOUNT as recordsAffected; SELECT * FROM [dbo].[Post] WHERE [id] = @id with parameters [{"name":"author","value":"ivan5ag@hotmail.com","type":{}},{"name":"published","value":false},{"name":"longitude","value":0},{"name":"title","value":"version final","type":{}},{"name":"image","value":"","type":{}},{"name":"latitude","value":0},{"name":"text","value":"Post creado con la versión final de la aplicación","type":{}},{"name":"author_name","value":"Ivan Aguilar Martin","type":{}},{"name":"publicationRequested","value":false},{"name":"readings","value":0},{"name":"id","type":{"length":255},"value":"39f5ac54-46a0-4e88-8248-dc265ab974c3"}]
+2016-10-27T10:28:49.045Z - [35msilly[39m: Executing SQL statement UPDATE [dbo].[Post] SET [author] = @author,[published] = @published,[longitude] = @longitude,[title] = @title,[image] = @image,[latitude] = @latitude,[text] = @text,[author_name] = @author_name,[publicationRequested] = @publicationRequested,[readings] = @readings WHERE [id] = @id; SELECT @@ROWCOUNT as recordsAffected; SELECT * FROM [dbo].[Post] WHERE [id] = @id with parameters [{"name":"author","value":"ivan5ag@hotmail.com","type":{}},{"name":"published","value":false},{"name":"longitude","value":0},{"name":"title","value":"version final","type":{}},{"name":"image","value":"","type":{}},{"name":"latitude","value":0},{"name":"text","value":"Post creado con la versión final de la aplicación","type":{}},{"name":"author_name","value":"Ivan Aguilar Martin","type":{}},{"name":"publicationRequested","value":true},{"name":"readings","value":0},{"name":"id","type":{"length":255},"value":"39f5ac54-46a0-4e88-8248-dc265ab974c3"}]
+2016-10-27T10:28:59.167Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (((([author] = @p1) AND ([published] = @p2)) AND ([publicationRequested] = @p3)) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":false},{"name":"p3","pos":3,"value":false},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:28:59.183Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:29:03.718Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE ((([author] = @p1) AND (([published] = @p2) OR ([publicationRequested] = @p3))) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":true},{"name":"p3","pos":3,"value":true},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:29:03.734Z - [35msilly[39m: Read query returned 4 results
+2016-10-27T10:29:09.735Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (((([author] = @p1) AND ([published] = @p2)) AND ([publicationRequested] = @p3)) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":false},{"name":"p3","pos":3,"value":false},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:29:09.750Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:29:11.016Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE ((([author] = @p1) AND (([published] = @p2) OR ([publicationRequested] = @p3))) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":true},{"name":"p3","pos":3,"value":true},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:29:11.078Z - [35msilly[39m: Read query returned 4 results
+2016-10-27T10:29:12.805Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (([published] = @p1) AND ([deleted] = @p2)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":true},{"name":"p2","pos":2,"value":false}]
+2016-10-27T10:29:12.821Z - [35msilly[39m: Read query returned 3 results
+2016-10-27T10:29:26.215Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (((([author] = @p1) AND ([published] = @p2)) AND ([publicationRequested] = @p3)) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":false},{"name":"p3","pos":3,"value":false},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:29:26.231Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:29:27.387Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE ((([author] = @p1) AND (([published] = @p2) OR ([publicationRequested] = @p3))) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":true},{"name":"p3","pos":3,"value":true},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:29:27.406Z - [35msilly[39m: Read query returned 4 results
+2016-10-27T10:30:22.515Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (((([author] = @p1) AND ([published] = @p2)) AND ([publicationRequested] = @p3)) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":false},{"name":"p3","pos":3,"value":false},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:30:22.625Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:30:24.508Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE ((([author] = @p1) AND (([published] = @p2) OR ([publicationRequested] = @p3))) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":true},{"name":"p3","pos":3,"value":true},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:30:24.508Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:31:54.504Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (([published] = @p1) AND ([deleted] = @p2)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":true},{"name":"p2","pos":2,"value":false}]
+2016-10-27T10:31:54.598Z - [35msilly[39m: Read query returned 3 results
+2016-10-27T10:42:04.387Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1NjQ5MjJ9.zVma9wCZUOdXJqS7guQdBmEd-PO0n-s0K33UiBDjPJ8
+2016-10-27T10:42:04.513Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-27T10:42:04.529Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBALSfmH5v2daTWvqQTKhEUQq5pZAibhp5mGAgBHYpKOka3OYbobTzI136mxOWGBh9ZALXyst0ZBhlJokhVYMGxSqwh8DZCZA9DnN1zf70zzZBollSpvzRpQ7h92FjuehHwlWIexxKFq","expires_on":"2016-12-25T17:14:15.9622606Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+Identidad:
+{ id: 'ivan5ag@hotmail.com', name: 'Ivan Aguilar Martin' }
+2016-10-27T10:42:06.186Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (([published] = @p1) AND ([deleted] = @p2)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":true},{"name":"p2","pos":2,"value":false}]
+2016-10-27T10:42:06.295Z - [35msilly[39m: Read query returned 3 results
+2016-10-27T10:42:15.488Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE ((([author] = @p1) AND (([published] = @p2) OR ([publicationRequested] = @p3))) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":true},{"name":"p3","pos":3,"value":true},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:42:15.504Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:42:17.576Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE (((([author] = @p1) AND ([published] = @p2)) AND ([publicationRequested] = @p3)) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":false},{"name":"p3","pos":3,"value":false},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:42:17.592Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:42:19.018Z - [35msilly[39m: Executing SQL statement SELECT TOP 50 * FROM [dbo].[Post] WHERE ((([author] = @p1) AND (([published] = @p2) OR ([publicationRequested] = @p3))) AND ([deleted] = @p4)) ORDER BY [updatedAt] DESC;  with parameters [{"name":"p1","pos":1,"value":"ivan5ag@hotmail.com"},{"name":"p2","pos":2,"value":true},{"name":"p3","pos":3,"value":true},{"name":"p4","pos":4,"value":false}]
+2016-10-27T10:42:19.033Z - [35msilly[39m: Read query returned 2 results
+2016-10-27T10:42:44.278Z - [35msilly[39m: Executing SQL statement UPDATE [dbo].[Post] SET readings=readings+1 WHERE id = 'dbdb1f02-e184-426e-adb9-436bb291c409' with parameters undefined
+2016-10-27T10:42:48.216Z - [35msilly[39m: Executing SQL statement UPDATE [dbo].[Post] SET readings=readings+1 WHERE id = 'e72c82c3-7355-42c5-971b-772e9a26759a' with parameters undefined

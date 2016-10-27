@@ -1,0 +1,241 @@
+2016-10-27T10:10:11  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-27T10:10:11  PID[8588] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D9891158563f5434698a52f65a1dbbaf1_20161027101511%26redir%3D
+2016-10-27T10:10:12  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQBrj2Rx8NpffGIOaYfN750RM5TSFd2cb4DLhFrk1h0lMe1icAVTkRLHzggfh6I8OaY0Z9QvdZdKWAvKVGdSj4mMDEFpiZ1TVtxPJqDIsOJ9HIMD10nPvX5KYl8ET-1QySgjt8OGDTXrZT3mkXbXQKatI__LioXAB4G23MwB3bghqr2wot8U-BWiMTWNYguNGzfX_mlnEbpG6i5AaEh_WRy_znzWtJJNKw4uqk2yf-if6pRJU3gn7MQoiHgG4raaUPexYFwT9luYE7ePlZ8bu5NIMGbccGWDh5PVX8O57ZW1GolVz-1XgaGem7xd4IwMToU&state=nonce%3D9891158563f5434698a52f65a1dbbaf1_20161027101511%26redir%3D
+2016-10-27T10:10:12  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:10:12  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:10:13  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-27T10:10:13  PID[8588] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-27T10:10:13  PID[8588] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1NjMwMTN9.pcVbJARwVNuFlpZkuYi-w4NBVqJPxRtSabiyEBJ6uXo%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-27T10:10:13  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-27T10:10:13  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:10:14  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:10:14  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:10:14  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:10:14  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:10:34  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:10:34  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:10:34  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:10:34  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:10:34  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:10:34  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:10:34  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:10:34  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:11:00  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-27T10:11:00  PID[8588] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Dcdd1b2de9a234a9d85d83329c298851e_20161027101600%26redir%3D
+2016-10-27T10:11:06  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQBjBhFZoQwNmCl2Ypcn656Z_yHwSelGApv4QQUc6v48A0_pzm5oipGt6Mr5-DhhDw0sEjotMj1veNNYp_zBWPYK8ueeotAbv1n0bfbVV4H9xbNmBcTly_D5pKzLuAbAHtvDRQbBcUi3CqMAhPCbujOh5y-eyM4OEoC1NsnyrV9hW4I--H_Fw_opGDqs1kkOZ_7a2UobjJas-QKck7clbRxIM3NNL9LroxisUgSeu5eKOUXmBxReuqY4UYGzxr16tHio_TgH62mAyIqYftIYXWPIvSYpR_feb61FjOUZjHHOXcLDa15l4xREhyocz0HlEEw&state=nonce%3Dcdd1b2de9a234a9d85d83329c298851e_20161027101600%26redir%3D
+2016-10-27T10:11:06  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:11:06  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:11:06  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-27T10:11:07  PID[8588] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-27T10:11:07  PID[8588] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1NjMwNjd9.wP_7M46xqEsKoPIo6fX8urYZMmIrSfCt50vYamlKWPY%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-27T10:11:07  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-27T10:11:07  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:11:07  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:11:07  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:11:07  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:11:07  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:11:07  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:11:07  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:11:07  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:11:07  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:11:07  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:11:07  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:11:07  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:11:07  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:12:38  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-27T10:12:38  PID[8588] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D9ea8555206764a6391cbf7395497ad6f_20161027101738%26redir%3D
+2016-10-27T10:12:39  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQAYzzBFAF9wVEnPZGNb8NFbBToXXf5HKS_K4XumvkAuvUG9-EtkkrAmV21TF2ldzabKWcBwUjhEc23M0CnnMzLT1r57ZvMc9z4FYOhzDj5w7XwOlSFK-Yn3mQdBHya5l_620TDvEjrlh8e63l8J3nqCaR2PZWLJaxYaLC84oTIN-fjJyDXIvlPJnDFvQWxEj72GOlI31p_neGLF57V0nB0UlSRmZs0mP7Wo6vC4hxttPbz9AeOaPkVz_LfJ4KkK18Kx-O_SOMR6zPfWCLs3kmC344eH4UZF-ybGjOqNxUEAZQXIZSIqHE1-AYtVmO4sJyw&state=nonce%3D9ea8555206764a6391cbf7395497ad6f_20161027101738%26redir%3D
+2016-10-27T10:12:39  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:12:39  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:12:39  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-27T10:12:39  PID[8588] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-27T10:12:39  PID[8588] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1NjMxNTl9.3Vya_pqSF1aYDT1ri65OepfVz5Qcup5rSs72FUVRT6Q%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-27T10:12:40  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-27T10:12:40  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:12:41  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:12:41  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:12:41  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:12:41  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:12:41  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:12:41  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:12:41  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:12:41  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:12:41  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:12:41  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:12:41  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:12:41  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:13:00  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:13:00  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:13:00  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:13:00  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:13:05  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:13:05  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:13:05  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:13:05  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:13:07  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:13:07  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:13:07  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:13:07  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:13:08  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:13:08  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:13:08  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:13:08  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:13:35  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/tables/Post
+2016-10-27T10:13:35  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/tables/Post
+2016-10-27T10:13:35  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:13:35  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:14:08  PID[8588] Verbose     Received request: PATCH https://scoopsapp.azurewebsites.net/tables/Post/2cc05fa3-5c2d-4ef0-b7ee-b389c1498b7b
+2016-10-27T10:14:08  PID[8588] Verbose     Received request: PATCH https://scoopsapp.azurewebsites.net/tables/Post/2cc05fa3-5c2d-4ef0-b7ee-b389c1498b7b
+2016-10-27T10:14:08  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:14:08  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:14:10  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:14:10  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:14:10  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:14:10  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:14:44  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:14:44  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:14:44  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:14:44  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:14:51  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:14:51  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:14:51  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:14:51  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:14:52  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:14:52  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:14:52  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:14:52  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:14:54  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:14:54  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:14:54  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:14:54  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:27:02  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-27T10:27:02  PID[8588] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3D40ba1631770c495db5bee3acd6ae6019_20161027103202%26redir%3D
+2016-10-27T10:27:03  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQAeLlflj3Vh2phz6GW1YZaAq8ZaqyUbhH-9lxg0GD4MReHdRMZc-TM8D_FDxuBLuTOo60pcstynEJFbzkR0ry117FTv-gVsJ247THPpYPP8_V1oN3ABoaHnswYXpZezu9EylZl4dGZc-pty_-9bfRiDEjLgwgW6M6FB-wxFv5REo7gkNeybpweqZupo1a_8gOCr3FxVHEKOYnZAoa1VK_a7jAUYwU-hbdjRoXfy6Qy-XFEptz8Cuj7pcDAoQDAC74GzNqQi0JwyC7fqmsL63Ri_Nj0KZZfBdHAgNX3uTcZF4Y4DxVODg6e4BcNw4bYEfl4&state=nonce%3D40ba1631770c495db5bee3acd6ae6019_20161027103202%26redir%3D
+2016-10-27T10:27:03  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:27:03  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:27:03  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-27T10:27:03  PID[8588] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-27T10:27:03  PID[8588] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU2LCJuYmYiOjE0Nzc1NjQwMjN9.lz0JrkpEPTwIVFW6cB5HZP9bcGCrMBXUiLfda8BFGKA%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-27T10:27:03  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-27T10:27:03  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:27:04  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:27:04  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:27:04  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:27:04  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:27:13  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:27:13  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:27:13  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:27:13  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:27:13  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:27:13  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:27:13  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:27:13  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:28:08  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:28:08  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:28:08  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:28:08  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:28:10  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:28:10  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:28:10  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:28:10  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:28:14  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:28:14  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:28:14  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:28:14  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:28:23  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/tables/Post
+2016-10-27T10:28:23  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/tables/Post
+2016-10-27T10:28:23  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:28:23  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:28:43  PID[8588] Verbose     Received request: PATCH https://scoopsapp.azurewebsites.net/tables/Post/39f5ac54-46a0-4e88-8248-dc265ab974c3
+2016-10-27T10:28:43  PID[8588] Verbose     Received request: PATCH https://scoopsapp.azurewebsites.net/tables/Post/39f5ac54-46a0-4e88-8248-dc265ab974c3
+2016-10-27T10:28:43  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:28:43  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:28:49  PID[8588] Verbose     Received request: PATCH https://scoopsapp.azurewebsites.net/tables/Post/39f5ac54-46a0-4e88-8248-dc265ab974c3
+2016-10-27T10:28:49  PID[8588] Verbose     Received request: PATCH https://scoopsapp.azurewebsites.net/tables/Post/39f5ac54-46a0-4e88-8248-dc265ab974c3
+2016-10-27T10:28:49  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:28:49  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:28:59  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:28:59  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:28:59  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:28:59  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:29:03  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:29:03  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:29:03  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:29:03  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:29:09  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:29:09  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:29:09  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:29:09  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:29:11  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:29:11  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:29:11  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:29:11  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:29:12  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:29:12  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:29:12  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:29:12  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:29:26  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:29:26  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:29:26  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:29:26  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:29:27  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:29:27  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:29:27  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:29:27  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:30:22  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:30:22  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:30:22  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:30:22  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:30:24  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:30:24  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:30:24  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:30:24  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:31:54  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:31:54  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:31:54  PID[8588] Warning     The configured default provider 'AzureActiveDirectory' was ignored because it is not enabled. An alternate provider will be chosen arbitrarily.
+2016-10-27T10:42:01  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook?session_mode=token
+2016-10-27T10:42:01  PID[8588] Information Redirecting: https://www.facebook.com/dialog/oauth?response_type=code&client_id=1774515152813267&redirect_uri=https%3A%2F%2Fscoopsapp.azurewebsites.net%2F.auth%2Flogin%2Ffacebook%2Fcallback&scope=public_profile+user_friends+email++++++user_birthday&state=nonce%3Da86fb7b19f3d4e20857a595d5abfaaeb_20161027104701%26redir%3D
+2016-10-27T10:42:01  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/facebook/callback?code=AQDC_C6DKjzHcRg0CN4MN8zqhvxlGtjD0WnHm2Rw_I5qA-3dSwqyWJNdIQNPqcGaVI4s8QjIh801nqSO_U9R02vhGR7WXC6sBKaUj6xFCUpVP58dZHkhfdNQPDSXh2vLRIG5dDZH5IMfo5GpKjgVon4pXgpnuYcE3msXcFOMtxviarr0NEqAi8KskBz_hRmnT3AKUsTlMN8G6cJSTfFCi_vX8OMDZo49E1XzgIQQo8JRY4rmsIFLdhQB7qIUqww03tmvyYiwPSb95aP6aAQsfb6UiH-4j-r0938QSKKWhyHkuWDzf3LHhNGonP-YXpOppw4&state=nonce%3Da86fb7b19f3d4e20857a595d5abfaaeb_20161027104701%26redir%3D
+2016-10-27T10:42:01  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:42:01  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/oauth/access_token.
+2016-10-27T10:42:02  PID[8588] Verbose     Calling into external HTTP endpoint GET https://graph.facebook.com/me.
+2016-10-27T10:42:02  PID[8588] Information Login completed for 'ivan5ag@hotmail.com'. Provider: 'facebook'.
+2016-10-27T10:42:02  PID[8588] Information Redirecting: https://scoopsapp.azurewebsites.net/.auth/login/done#token=%7B%22authenticationToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1NjQ5MjJ9.zVma9wCZUOdXJqS7guQdBmEd-PO0n-s0K33UiBDjPJ8%22%2C%22user%22%3A%7B%22userId%22%3A%22sid%3Afdbbca49574f1b0beb9796d32c8844ce%22%7D%7D
+2016-10-27T10:42:02  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/login/done
+2016-10-27T10:42:02  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:42:04  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:42:04  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/api/facebookAPI
+2016-10-27T10:42:04  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:04  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:04  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:42:04  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/.auth/me
+2016-10-27T10:42:04  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:04  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:04  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:42:04  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:04  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:04  PID[8588] Information Sending response: 200.0 OK
+2016-10-27T10:42:06  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:42:06  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=(published%20eq%20true)&$orderby=updatedAt%20desc
+2016-10-27T10:42:06  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:06  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:15  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:42:15  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:42:15  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:15  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:17  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:42:17  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20(published%20eq%20false)%20and%20(publicationRequested%20eq%20false))&$orderby=updatedAt%20desc
+2016-10-27T10:42:17  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:17  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:19  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:42:19  PID[8588] Verbose     Received request: GET https://scoopsapp.azurewebsites.net/tables/Post?$filter=((author%20eq%20'ivan5ag%40hotmail.com')%20and%20((published%20eq%20true)%20or%20(publicationRequested%20eq%20true)))&$orderby=updatedAt%20desc
+2016-10-27T10:42:19  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:19  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:44  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/api/scoopsAPI?post_id=dbdb1f02-e184-426e-adb9-436bb291c409
+2016-10-27T10:42:44  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/api/scoopsAPI?post_id=dbdb1f02-e184-426e-adb9-436bb291c409
+2016-10-27T10:42:44  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:44  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.
+2016-10-27T10:42:48  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/api/scoopsAPI?post_id=e72c82c3-7355-42c5-971b-772e9a26759a
+2016-10-27T10:42:48  PID[8588] Verbose     Received request: POST https://scoopsapp.azurewebsites.net/api/scoopsAPI?post_id=e72c82c3-7355-42c5-971b-772e9a26759a
+2016-10-27T10:42:48  PID[8588] Verbose     JWT validation succeeded. Subject: 'sid:fdbbca49574f1b0beb9796d32c8844ce', Issuer: 'https://scoopsapp.azurewebsites.net/'.
+2016-10-27T10:42:48  PID[8588] Verbose     Authenticated sid:fdbbca49574f1b0beb9796d32c8844ce successfully using 'Session Token' authentication.

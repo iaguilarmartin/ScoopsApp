@@ -1,0 +1,103 @@
+2016-10-26T19:15:38.602Z - [35msilly[39m: Configured with the following values:
+{
+  "platform": "express",
+  "basePath": "D:\\home\\site\\wwwroot",
+  "configFile": "azureMobile",
+  "apiRootPath": "/api",
+  "tableRootPath": "/tables",
+  "notificationRootPath": "/push/installations",
+  "swaggerPath": "/swagger",
+  "authStubRoute": "/.auth/login/:provider",
+  "debug": false,
+  "version": "node-3.0.1",
+  "apiVersion": "2.0.0",
+  "homePage": true,
+  "swagger": false,
+  "maxTop": 1000,
+  "pageSize": 50,
+  "userIdColumn": "userId",
+  "logging": {
+    "level": "silly",
+    "transports": [
+      {
+        "domain": null,
+        "_events": {},
+        "_eventsCount": 0,
+        "silent": false,
+        "raw": false,
+        "name": "console",
+        "handleExceptions": false,
+        "exceptionsLevel": "error",
+        "humanReadableUnhandledException": false,
+        "json": false,
+        "colorize": true,
+        "prettyPrint": false,
+        "timestamp": true,
+        "showLevel": true,
+        "label": null,
+        "logstash": false,
+        "depth": null,
+        "align": false,
+        "stderrLevels": {
+          "error": true,
+          "debug": true
+        },
+        "eol": "\r\n"
+      }
+    ]
+  },
+  "cors": {
+    "exposeHeaders": "Link,Etag",
+    "maxAge": 300,
+    "hostnames": [
+      "localhost"
+    ]
+  },
+  "data": {
+    "provider": "mssql",
+    "schema": "dbo",
+    "dynamicSchema": true,
+    "connectionString": "Data Source=tcp:scoopsappserver.database.windows.net,1433;Initial Catalog=ScoopsAppDB;User ID=scoopsuser@scoopsappserver;Password=ScoopsPassword2016",
+    "user": "scoopsuser@scoopsappserver",
+    "password": "ScoopsPassword2016",
+    "server": "scoopsappserver.database.windows.net",
+    "port": 1433,
+    "database": "ScoopsAppDB",
+    "connectionTimeout": 15000,
+    "options": {
+      "encrypt": true
+    }
+  },
+  "auth": {
+    "secret": "0000",
+    "validateTokens": false,
+    "azureSigningKey": "F108BE4F6CB502EA2B4D9024B580BDB471D713B35387367496ABA9BA03CFFB35",
+    "audience": "https://scoopsapp.azurewebsites.net/",
+    "issuer": "https://scoopsapp.azurewebsites.net/"
+  },
+  "notifications": {},
+  "storage": {},
+  "name": "ScoopsApp",
+  "hosted": true
+}
+2016-10-26T19:15:39.121Z - [36mverbose[39m: SQL Azure database detected - setting connection encryption
+2016-10-26T19:15:39.327Z - [35msilly[39m: Not loading plugin azure-mobile-apps-files: Cannot find module 'azure-mobile-apps-files'
+2016-10-26T19:15:42.045Z - [36mverbose[39m: SQL Azure database detected - setting connection encryption
+2016-10-26T19:15:42.987Z - [35msilly[39m: Loaded D:\home\site\wwwroot\tables\Post.js
+2016-10-26T19:15:43.003Z - [35msilly[39m: Loaded D:\home\site\wwwroot\tables\Post.json
+2016-10-26T19:15:43.003Z - [36mverbose[39m: Adding table definition for Post
+2016-10-26T19:15:43.112Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\facebookAPI.js
+2016-10-26T19:15:43.128Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\facebookAPI.json
+2016-10-26T19:15:43.128Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\scoopsAPI.js
+2016-10-26T19:15:43.144Z - [35msilly[39m: Loaded D:\home\site\wwwroot\api\scoopsAPI.json
+2016-10-26T19:15:43.144Z - [36mverbose[39m: Adding method get to api facebookAPI
+2016-10-26T19:15:43.144Z - [36mverbose[39m: Adding authorization to get for api facebookAPI
+2016-10-26T19:15:43.159Z - [36mverbose[39m: Adding method post to api scoopsAPI
+2016-10-26T19:15:44.328Z - [35msilly[39m: Executing SQL statement SELECT COLUMN_NAME AS name, DATA_TYPE AS type FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @table AND TABLE_SCHEMA = @schema with parameters [{"name":"table","value":"Post"},{"name":"schema","value":"dbo"}]
+2016-10-26T19:15:44.359Z - [32minfo[39m: Updating schema for table Post
+2016-10-26T19:15:44.359Z - [35msilly[39m: Executing SQL statement SELECT COLUMN_NAME AS name, DATA_TYPE AS type FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @table AND TABLE_SCHEMA = @schema with parameters [{"name":"table","value":"Post"},{"name":"schema","value":"dbo"}]
+2016-10-26T19:15:44.609Z - [35msilly[39m: GetIdentity Request:  hostname=scoopsapp.azurewebsites.net, port=443, path=/.auth/me, method=GET, x-zumo-auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGFibGVfc2lkIjoic2lkOjhhMjY0ZDY4YzFmYTlmZGU1MmJjNDVjNzgwM2QwNDVhIiwic3ViIjoic2lkOmZkYmJjYTQ5NTc0ZjFiMGJlYjk3OTZkMzJjODg0NGNlIiwiaWRwIjoiZmFjZWJvb2siLCJ2ZXIiOiIzIiwiaXNzIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiYXVkIjoiaHR0cHM6Ly9zY29vcHNhcHAuYXp1cmV3ZWJzaXRlcy5uZXQvIiwiZXhwIjoxNDgyNjg2MDU1LCJuYmYiOjE0Nzc1MDkzMzV9.wS9SOjvH0vkj8ck07fIKEJZ9QnMxH-fjntwM_3aCrpY
+2016-10-26T19:15:44.672Z - [35msilly[39m: GetIdentity Response Code:  200
+2016-10-26T19:15:44.687Z - [35msilly[39m: GetIdentity Response:  [{"access_token":"EAAZAN6YFUZCNMBABFK7ZAxKlNIZCL71irzefZBaoqqbWxw73qvgPZBi9GbxkYhlZCxf9WFyod06LtBrIvZAR1DrhH7jHP8bmKMzMvxN6Wg6bb06VZCVrpkntF1vZBQ6F9c0y3TkK3bTzWroCbP2CWJSbav","expires_on":"2016-12-25T17:14:15.7500197Z","provider_name":"facebook","user_claims":[{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/nameidentifier","val":"10154625817278669"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/emailaddress","val":"ivan5ag@hotmail.com"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/name","val":"Ivan Aguilar Martin"},{"typ":"urn:facebook:link","val":"https:\/\/www.facebook.com\/app_scoped_user_id\/10154625817278669\/"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/givenname","val":"Ivan"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/surname","val":"Aguilar Martin"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/gender","val":"male"},{"typ":"http:\/\/schemas.xmlsoap.org\/ws\/2005\/05\/identity\/claims\/dateofbirth","val":"11\/18\/1984"},{"typ":"urn:facebook:locale","val":"es_ES"},{"typ":"urn:facebook:timezone","val":"2"}],"user_id":"ivan5ag@hotmail.com"}]
+Identidad:
+ivan5ag@hotmail.com
